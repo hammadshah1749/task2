@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F4C300;
+}
+
+.container{
+    /* display: list-item; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    margin: 100px auto ;
+    width:1200px;
+}
+
+#mg-fix{
+    margin-top: -20%;
+}
+
+
+#bg-color{
+    background:black;
+}
+h1{
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+text-shadow:black;
+/* padding: 5%; */
+    padding-bottom: 20px;
+    color:rgb(14, 13, 14) ;
+}
+
+
+h2{
+text-transform: uppercase;
+color: white;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+}
+.form-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+.form-group input[type="color"] {
+    padding: 0;
+}
+.form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+
+
+table{
+    /* border-collapse: collapse; */
+    width: 100%;
+}
+
+
+
+th, td {
+text-transform: uppercase;
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: white;
+
+    text-align: left;
+}
+th {
+    color: black;
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ol{
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+    margin: 45%;
+    margin-top: -0px;
+
+
+}
+
+
+ul{
+    text-transform: uppercase;
+    color: white;
+
+text-align: left;
+ margin: 45%;
+ margin-top: -0px;
+}
+
+ul li{
+    list-style: square;
+}
+
+
+
+/* embed video  */
+.social-links{
+    margin-left: 350px;
+    width: 500px;;
+    /* background: #000; */
+    margin-top:50px;
+}
+.social-links a{
+
+    /* display: flex; */
+    justify-content: center;
+    margin: 10px;
+}
