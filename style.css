@@ -45,6 +45,11 @@ p{
 }
 
 
+
+
+
+/* STUDENT FORM  */
+
 .form-container {
     max-width: 600px;
     margin: 0 auto;
@@ -91,6 +96,9 @@ p{
 
 
 
+/* STUDENT TABLE  */
+
+
 table{
     /* border-collapse: collapse; */
     width: 100%;
@@ -112,18 +120,7 @@ th {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* OREDERED LIST  */
 
 ol{
     text-transform: uppercase;
@@ -135,6 +132,8 @@ ol{
 
 }
 
+
+/* UNOREDERED LIST  */
 
 ul{
     text-transform: uppercase;
@@ -149,9 +148,15 @@ ul li{
     list-style: square;
 }
 
+ /* audio    */
+audio{
+    
+    /* -webkit-border-image: fill; */
+    width: 500px;
+}
+/* SM LINKS  */
 
 
-/* embed video  */
 .social-links{
     margin-left: 350px;
     width: 500px;;
@@ -163,4 +168,4 @@ ul li{
     /* display: flex; */
     justify-content: center;
     margin: 10px;
-}
+}                    
